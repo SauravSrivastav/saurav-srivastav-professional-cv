@@ -1,0 +1,172 @@
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault}
+
+\usepackage[margin=0.5in]{geometry}
+\usepackage{latexsym}
+\usepackage{titlesec}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\setlength{\footskip}{5pt}
+
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule]
+\titlespacing*{\section}{0pt}{12pt}{8pt}
+
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{#3} & \textit{#4} \\
+    \end{tabular*}\vspace{2pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-2pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+\begin{document}
+
+\begin{center}
+    {\Huge \textbf{Saurav Srivastav}} \\ \vspace{3pt}
+    \small{
+    \faPhone\hspace{.5pt} \href{tel:+971503984885}{+971-503984885} $|$
+    \faEnvelope\hspace{.5pt} \href{mailto:sauravsrivastav2205@gmail.com}{sauravsrivastav2205@gmail.com} $|$
+    \faLinkedin\hspace{.5pt} \href{https://www.linkedin.com/in/sauravsrivastav2205}{LinkedIn} $|$
+    \faGithub\hspace{.5pt} \href{https://github.com/SauravSrivastav}{GitHub} $|$
+    \faGlobe\hspace{.5pt} \href{https://sauravsrivastav.github.io/cv}{Portfolio} $|$
+    \faMapMarker\hspace{.5pt} Dubai, UAE
+    }
+\end{center}
+
+\section{Summary}
+\small{Innovative DevOps Manager with 11+ years of experience in infrastructure modernization, digital transformation, and cloud technologies. Proven track record in establishing DevOps practices, implementing cloud infrastructure, and leading AI and machine learning operations. Expertise in Kubernetes, Docker, CI/CD, and multi-cloud environments (Azure, GCP, AWS, Oracle Cloud). Passionate about leveraging cutting-edge technologies to drive business value and optimize workflows.}
+
+\section{Skills}
+\resumeSubHeadingListStart
+\resumeItem{
+    \textbf{Cloud Platforms:} Azure, GCP, AWS, Oracle Cloud \\
+    \textbf{Containerization \& Orchestration:} Docker, Kubernetes (AKS, GKE, EKS, OKE), Istio, Rancher, OpenShift \\
+    \textbf{CI/CD \& DevOps:} Azure DevOps, Jenkins, GitOps, ArgoCD, Jmeter, SonarQube \\
+    \textbf{Infrastructure as Code:} Terraform, ARM templates, Packer, Puppet, Ansible \\
+    \textbf{Monitoring \& Logging:} Prometheus, Grafana, ELK stack, Azure Monitor, AppDynamics, Splunk, Kibana, Elasticsearch \\
+    \textbf{Programming:} Python, Bash, PowerShell, Go \\
+    \textbf{AI \& ML Ops:} MLflow, Kubeflow, TensorFlow Extended (TFX) \\
+    \textbf{Security:} SAST (SonarQube), DAST (ZAP Proxy), Cybersecurity frameworks, HashiCorp Vault \\
+    \textbf{Databases:} SQL, MongoDB, Oracle, Postgres, MySQL, CouchBase \\
+    \textbf{Methodologies:} Agile, Scrum, DevSecOps, MLOps, LLMOps \\
+}
+\resumeSubHeadingListEnd
+
+\section{Professional Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Emirates Flight Catering (EKFC)}{Dubai, UAE}
+{DevOps Manager}{Nov 2023 -- Present}
+\resumeItemListStart
+\resumeItem{Pioneered DevOps and cloud infrastructure implementation for a 10,000+ employee organization, establishing best practices from the ground up.}
+\resumeItem{Led the modernization of legacy applications using cutting-edge technologies, significantly improving system performance and scalability.}
+\resumeItem{Established and led MLOps initiatives, collaborating closely with machine learning teams to streamline AI model deployment and management.}
+\resumeItem{Spearheaded Generative AI and LLMOps teams, driving innovation in AI-powered solutions across the organization.}
+\resumeItem{Implemented Oracle Cloud infrastructure, integrating it with existing Oracle ERP systems to enhance overall IT ecosystem efficiency.}
+\resumeItem{Designed and implemented a comprehensive cybersecurity framework, significantly enhancing the organization's security posture and data protection measures.}
+\resumeItem{Provided servant leadership to foster a culture of continuous improvement and agile methodologies.}
+\resumeItem{Conducted performance reviews and provided continuous feedback to team members, facilitating professional development.}
+\resumeItem{Managed technology suppliers for DevOps tools and platform development, ensuring alignment with global centers of excellence and distributed scaled agile practices.}
+\resumeItem{Developed self-service portals for end users to consume services, including automated deployments, server provisioning, security and functional testing, complete CI/CD pipeline.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Noon Payments}{Dubai, UAE}
+{Sr. DevSecOps Engineer}{Aug 2022 -- Nov 2023}
+\resumeItemListStart
+\resumeItem{Designed and implemented a scalable microservices architecture on Kubernetes (AKS/GKE) to handle 1M+ daily transactions for the payments platform.}
+\resumeItem{Automated infrastructure provisioning in Azure/GCP using Terraform and ARM templates, reducing deployment time by 70\%.}
+\resumeItem{Established end-to-end CI/CD pipelines with test automation, security scanning, and compliance checks, improving release velocity by 60\%.}
+\resumeItem{Implemented GitOps workflows using ArgoCD, enabling continuous delivery and reducing deployment errors by 40\%.}
+\resumeItem{Conducted root cause analysis and problem-solving sessions to improve system reliability and performance.}
+\resumeItem{Provided technical support and mentorship to junior team members, fostering a culture of learning and development.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Lowes India}{Bengaluru, India}
+{Sr. Infrastructure Engineer}{Jan 2021 -- Jul 2022}
+\resumeItemListStart
+\resumeItem{Architected microservices-oriented platforms on Kubernetes and Istio for retail giant's online properties, managing 50+ applications.}
+\resumeItem{Established centralized logging, monitoring, and alerting using ELK stack and Prometheus/Grafana, improving system reliability by 30\%.}
+\resumeItem{Optimized cloud infrastructure costs by 40\% through right-sizing, auto-scaling, and spot instance utilization.}
+\resumeItem{Conducted thorough analysis and reporting to ensure alignment with corporate goals and market metrics.}
+\resumeItem{Provided technical support and resolved complex technical issues to ensure smooth service delivery.}
+\resumeItemListEnd
+
+\resumeSubheading
+{HCL Technologies}{Noida, India}
+{Cloud and DevOps Consultant}{May 2019 -- Dec 2020}
+\resumeItemListStart
+\resumeItem{Deployed and managed AKS clusters using PowerShell and ARM templates, implementing both Kubenet and Azure CNI networking.}
+\resumeItem{Implemented CI/CD for Azure Kubernetes Service (AKS) using Azure DevOps, reducing deployment time from weeks to days.}
+\resumeItem{Designed and implemented AWS-based infrastructure using Terraform, including EKS, ECR, and CloudWatch for monitoring.}
+\resumeItem{Conducted functional testing and performance reviews to ensure high-quality software solutions.}
+\resumeItem{Provided technical support and mentorship to junior team members, fostering a culture of learning and development.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Accenture}{Gurgaon, India}
+{Cloud and DevOps Consultant}{Mar 2018 -- Apr 2019}
+\resumeItemListStart
+\resumeItem{Created CI/CD pipeline for CRM solution migration using Azure DevOps (VSTS), improving deployment efficiency by 50\%.}
+\resumeItem{Containerized ASP.NET Core applications and deployed to Azure Kubernetes Service (AKS), facilitating microservices architecture adoption.}
+\resumeItem{Conducted thorough analysis and reporting to ensure alignment with corporate goals and market metrics.}
+\resumeItem{Provided technical support and resolved complex technical issues to ensure smooth service delivery.}
+\resumeItemListEnd
+
+\resumeSubheading
+{Wipro Technology}{Bengaluru, India}
+{Cloud Consultant}{Jul 2015 -- Feb 2018}
+\resumeItemListStart
+\resumeItem{Designed solutions for Dynamics CRM 365 Online, adhering to Microsoft best practices and guidelines.}
+\resumeItem{Migrated on-premise data to Azure SQL (PaaS) using PowerShell scripts and SSIS packages, reducing data transfer time by 40\%.}
+\resumeItem{Developed and maintained TFS workflow for version control, improving team collaboration and code management.}
+\resumeItem{Implemented Microservices-based applications using Docker and Kubernetes, enhancing system scalability and deployment efficiency.}
+\resumeItem{Provided technical support and resolved complex technical issues to ensure smooth service delivery.}
+\resumeItemListEnd
+
+\resumeSubHeadingListEnd
+
+\section{Education}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Jaypee Institute of Information Technology}{Noida, India}
+{Bachelor of Technology (B.Tech), Electrical, Electronic and Communications Engineering Technology/Technician}{2011 -- 2015}
+\resumeSubHeadingListEnd
+
+\section{Certifications}
+\resumeSubHeadingListStart
+\resumeItem{Oracle Cloud Infrastructure 2024 Generative AI Certified Professional}
+\resumeItem{Databricks: Academy Accreditation - Generative AI Fundamentals (Issued Sep 2023, Expires Sep 2025)}
+\resumeItem{Microsoft: MCSA: Cloud Platform - Certified 2018}
+\resumeItem{Microsoft: Exam 533: Implementing Microsoft Azure Infrastructure Solutions (Sep 2018)}
+\resumeItem{Microsoft: Exam 532: Developing Microsoft Azure Solutions (May 2018)}
+\resumeItem{Microsoft: Exam 718: Microsoft Dynamics 365 for Customer Service (Feb 2018)}
+\resumeItem{Microsoft: Exam 716: Microsoft Dynamics 365 Customization and Configuration (Oct 2017)}
+\resumeItem{CertiProf: Cyber Security Foundation Professional Certificate - CSFPC™ (Issued Jan 2021, Expired Jan 2023)}
+\resumeSubHeadingListEnd
+
+\end{document}
