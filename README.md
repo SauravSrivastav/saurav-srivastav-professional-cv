@@ -24,7 +24,7 @@ I'm Saurav Srivastav, an experienced App Innovation Technical Specialist and Dev
 
 ## 👀 CV Preview
 
-![Search Results](https://github.com/SauravSrivastav/saurav-srivastav-professional-cv/blob/main/data/1.png)   
+![Search Results](https://github.com/SauravSrivastav/saurav-srivastav-professional-cv/blob/main/Data/1.png)   
 
 ## 🛠 Technologies Highlighted
 
